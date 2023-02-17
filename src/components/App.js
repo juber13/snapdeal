@@ -5,6 +5,7 @@ import '../styles/App.css';
 import Home from '../pages/Home';
 import Register from '../pages/Register';
 // import Login from '../pages/Login';
+import Login from '../pages/Login'
 import Cart from '../pages/Cart';
 import Checkout from '../pages/Checkout';
 import CartHome from '../pages/CartHome';
