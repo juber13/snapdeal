@@ -1,6 +1,6 @@
 //import React, { Component } from 'react'
 import { Link } from "react-router-dom";
-// import Login from "../pages/Login";
+import Login from "../pages/Login";
 import React, { useState } from "react";
 // import Register from "../pages/Register";
 // import Logout from "../pages/Logout";
@@ -304,7 +304,7 @@ function Header() {
                           SignUp
                         </Link>
 
-                        <Link to="/" className="btn btn-danger me-4 mt-3">
+                        <Link to="/login" className="btn btn-danger me-4 mt-3">
                           Login
                         </Link>
                         <li className="btn btn-success mt-5 ps-5"> logout</li>

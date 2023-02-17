@@ -21,7 +21,7 @@ function Login() {
     e.preventDefault();
       if(userData.email == email && userData.password === password){
         localStorage.setItem("authenticated" , true);
-        navigate('/');
+        // navigate('/');
       }else{
         alert("U are not register with us Please register First");;
         return;
