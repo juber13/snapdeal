@@ -1,16 +1,16 @@
 //import React, { Component } from 'react'
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import Layout from '../components/Layout'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+// import Footer from '../components/Footer'
+// import Header from '../components/Header'
 import dress from '../assets/images/dress.jpg'
 import watch from '../assets/images/watch.jpg'
 import wallet from '../assets/images/wallet.jpg'
-import socks from '../assets/images/socks.jpg'
+// import socks from '../assets/images/socks.jpg'
 import chopper from '../assets/images/chopper.jpg'
-import chappal from '../assets/images/chappal.jpg'
-import lighter from '../assets/images/lighter.jpg'
+// import chappal from '../assets/images/chappal.jpg'
+// import lighter from '../assets/images/lighter.jpg'
 import tshirt from '../assets/images/tshirt.jpg'
 import saree from '../assets/images/saree.jpg'
 import mala from '../assets/images/mala.jpg'
@@ -18,10 +18,10 @@ import shoe from '../assets/images/shoe.jpg'
 import code from '../assets/images/code.jpg'
 import rightbarimage from '../assets/images/rightbarimage.jpg'
 import { Link } from 'react-router-dom'
-import CartHome from '../pages/CartHome'
-import Menhome from '../pages/Menhome'
-import Womenhome from '../pages/Womenhome'
-import Ornamenthome from '../pages/Ornamenthome'
+// import CartHome from '../pages/CartHome'
+// import Menhome from '../pages/Menhome'
+// import Womenhome from '../pages/Womenhome'
+// import Ornamenthome from '../pages/Ornamenthome'
 
 
 
@@ -36,20 +36,20 @@ function Home() {
             <div className='row m-0 a_main1_b1'>
                 <div className='col-2 bg-white main_b1_left pe-0 pt-3 pb-3 position-relative'>
                     <h6 className='fs-5 mt-3'>TOP CATEGORIES</h6>
-                    <ul class=" nav flex-column asidenav fs-5">
-                        <li class="nav-item  mt-3">
+                    <ul className=" nav flex-column asidenav fs-5">
+                        <li className="nav-item  mt-3">
                             <Link to="/CartHome" >Electronic Devices</Link>
                             <div className='position-absolute top-0 asidenav_rightbox'>A</div>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link to="/Menhome">Mens's Fashions</Link>
                             <div className='position-absolute top-0 asidenav_rightbox'>B</div>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link to="/Womenhome">Women's Fashion</Link>
                             <div className='position-absolute top-0 asidenav_rightbox'>C</div>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link to="/Ornamenthome">Ornaments</Link>
                             <div className='position-absolute top-0 asidenav_rightbox'>D</div>
                         </li>
@@ -59,20 +59,20 @@ function Home() {
                         </li> */}
                     </ul>
                     <h6 className='mt-4 fs-4 mt-10'>Recent Searches</h6>
-                    <ul class=" nav flex-column asidenav asidenav fs-5">
-                        <li class="nav-item">
+                    <ul className=" nav flex-column asidenav asidenav fs-5">
+                        <li className="nav-item">
                             <a className="mt-6">Men'sFashions</a>
                             <div className='position-absolute top-0 asidenav_rightbox'>A</div>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                         <a className="mt-6">Women'sFashions</a>
                             <div className='position-absolute top-0 asidenav_rightbox'>B</div>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <a className="mt-6">Electronic Devices</a>
                             <div className='position-absolute top-0 asidenav_rightbox'>C</div>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <a className="mt-6">Ornaments</a>
                             <div className='position-absolute top-0 asidenav_rightbox'>D</div>
                         </li>

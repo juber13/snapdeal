@@ -1,9 +1,9 @@
 //import React, { Component } from 'react'
 import { Link } from "react-router-dom";
-import Login from "../pages/Login";
+// import Login from "../pages/Login";
 import React, { useState } from "react";
-import Register from "../pages/Register";
-import Logout from "../pages/Logout";
+// import Register from "../pages/Register";
+// import Logout from "../pages/Logout";
 
 function Header() {
   
@@ -268,7 +268,7 @@ function Header() {
                   {/* cart starts */}
                   <Link to="/cart">
                     <li className="nav-item text-white fs-6">
-                      <Link to="/cart"> Cart</Link>
+                       Cart
                     </li>
                   </Link>
                   {/* cart ends */}
