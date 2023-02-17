@@ -5,7 +5,7 @@ import '../styles/App.css';
 import Home from '../pages/Home';
 import Register from '../pages/Register';
 // import Login from '../pages/Login';
-// import Login from '../pages/Login'
+import Login from '../pages/Login'
 import Cart from '../pages/Cart';
 import Checkout from '../pages/Checkout';
 import CartHome from '../pages/CartHome';
@@ -21,9 +21,9 @@ function App() {
   return (
     <BrowserRouter>
      <Routes>
-      <Route path="/"  element={<Home/>}/>
+      <Route path="/home"  element={<Home/>}/>
       <Route path="/register" element={<Register />}/>
-      <Route path="/login" element={<Login/>}/>
+      <Route path="/" element={<Login/>}/>
       <Route path="/checkout" element={<Checkout/>}/>
 
       <Route path="/cart" element={<Cart/>}/>

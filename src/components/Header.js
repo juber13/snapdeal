@@ -304,7 +304,7 @@ function Header() {
                           SignUp
                         </Link>
 
-                        <Link to="/login" className="btn btn-danger me-4 mt-3">
+                        <Link to="/" className="btn btn-danger me-4 mt-3">
                           Login
                         </Link>
                         <li className="btn btn-success mt-5 ps-5"> logout</li>
